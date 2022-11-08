@@ -13,7 +13,7 @@ THEN I can save my initials and score
 # Installation
 N/A
 # Usage
-
+![alt text](assets/screenshot/Screenshot_20221107_111241.png)
 
 # Credits
 N/A
