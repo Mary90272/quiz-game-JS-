@@ -1,15 +1,22 @@
 # quiz-game-JS
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
+Want to test your knowledge of JavaScript?
+Give our free coding quiz a try!
+Click "Start Quiz"
+Timer on top right will start to run
+Total time is 100 second with 11 questions 
+If the question is answered wrong, 10 seconds will be deducted to the timer
+If the question is answered correctly,will add 1 score
+After a question is answered,it will show on the bottom whether it is answered correctly or wrong.
+if wrong will also show the correct answer. 
+When all questions are answered or timer reaches 0 game is over.
+By submitting your inital your score will be added to a "ViewHighScore" record.
+The "ViewHighScore" link on top left will direct the user to view all current high score.
+Allows to track user score.
+Also it will show of saved high scores.
+Also user then will have option to click on "Go Back" to start quiz again or "Clear High Scores"
+to clear saved score.
+GOOD LUCK.
+
 # Installation
 N/A
 # Usage
