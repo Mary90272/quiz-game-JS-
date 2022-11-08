@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>Quiz Challenge</title>
+</head>
+<body>
+  <header>
+  <div class="quiz-container container">
+    <div class="quiz-container-top">
+      <span class="show-high-scores-text">Show High Scores</span>
+      <span class="timer-text-wrapper d-none">
+        Time: <span class="timer-text"></span>
+      </span>
+    </div>
+  </header>
+  <main>
+    <div class="start-game-container">
+      <h3 class="start-game-heading">Coding Quiz Challenge</h3>
+      <p class="start-game-desc">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+      <button class="start-game-btn btn">Start Quiz</button>
+    </div>
+    <form action="" class="quiz-form d-none">
+      <legend class="quiz-question"></legend>
+      <div class="quiz-options-wrapper">
+        <!-- ...  -->
+      </div>
+      <hr class="quiz-form-separator">
+      <p class="quiz-question-verdict"></p>
+    </form>
+    <form action="" class="quiz-end-form d-none">
+      <legend class="quiz-end-text">Quiz Ends! You have scored <span class="scored-points-text"></span> points.</legend>
+      <div class="form-group">
+        <input type="text" class="save-score-name-inp" placeholder="Enter your name to save the score" maxlength="9" required>
+      </div>
+      <button class="save-score-btn btn">Save</button>
+    </form>
+    <div class="high-scores-container d-none">
+      <table class="high-scores-table">
+        <thead class="high-scores-thead">
+          <tr class="high-scores-tr">
+            <th class="high-scores-th">Serial</th>
+            <th class="high-scores-th">Name</th>
+            <th class="high-scores-th">Points</th>
+          </tr>
+        </thead>  
+        <tbody class="high-scores-tbody">
+          <!-- ...  -->
+        </tbody>
+      </table>
+      <div class="high-scores-additionals-wrapper">
+        <button class="go-back-btn btn">Go Back</button>
+        <button class="clear-high-scores-btn btn">Clear High Scores</button>
+      </div>
+    </div>
+  </div>
+</main>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
